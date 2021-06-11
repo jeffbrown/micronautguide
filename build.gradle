@@ -37,5 +37,9 @@ java {
     targetCompatibility = JavaVersion.toVersion("1.8")
 }
 
+nativeImage {
+    args('--verbose')
+    imageName('mn-graalvm-application')
+}
 
 
