@@ -1,3 +1,7 @@
 micronaut:
   application:
     name: micronautguide
+endpoints:
+  info:
+    enabled: true
+    sensitive: false
